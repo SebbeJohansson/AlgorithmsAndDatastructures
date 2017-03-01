@@ -11,7 +11,7 @@ void Insertion::insertionSort(int arr[], int size) {
 			int tmp = arr[picked];
 			arr[picked] = arr[picked - 1];
 			arr[picked - 1] = tmp;
-			picked++;
+			picked--;
 		}
 		printArray(arr, size);
 	}
@@ -19,7 +19,7 @@ void Insertion::insertionSort(int arr[], int size) {
 
 void Insertion::printArray(int arr[], int size) {
 	std::cout << "Array: ";
-	for (size_t i = 0; i < size; i++)
+	for (int i = 0; i < size; i++)
 	{
 		std::cout << arr[i];
 	}
