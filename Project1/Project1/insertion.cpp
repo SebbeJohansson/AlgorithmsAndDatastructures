@@ -1,7 +1,6 @@
-#include "stdafx.h"
 #include "insertion.h"
 
-static void Insertion::insertionSort(int arr[], int size){
+void Insertion::insertionSort(int arr[], int size) {
 	int picked;
 	std::cout << "Sorting array: \n";
 	for (int i = 0; i < size; i++)
@@ -18,7 +17,7 @@ static void Insertion::insertionSort(int arr[], int size){
 	}
 }
 
-static void Insertion::printArray(int arr[], int size){
+void Insertion::printArray(int arr[], int size) {
 	std::cout << "Array: ";
 	for (size_t i = 0; i < size; i++)
 	{
