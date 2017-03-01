@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="insertion.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="insertion.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EE40ABFD-5749-4CFB-B4D8-72979D23F672}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
